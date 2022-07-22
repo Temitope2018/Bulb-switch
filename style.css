@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+div.button {
+  width: 90px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  border: 2px solid #63605f;
+  border-radius: 10px;
+}
+
+.fa-solid,
+.fa-regular {
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+.yellow-icon {
+  color: yellow;
+}
+
+.yellow-icon:active {
+  transform: scale(0.95);
+}
+
+.grey-icon {
+  color: #2b2a2a;
+}
+
+.grey-icon:active {
+  transform: scale(0.95);
+}
